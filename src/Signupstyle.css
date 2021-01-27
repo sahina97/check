@@ -1,0 +1,31 @@
+*{
+    padding:16px;
+    background-color: rgb(33, 33, 34) ;
+    color:white;
+}
+.bigtext{
+    font-size:4em; 
+    
+}
+.smalltext{
+    font-size: 2em;
+    
+}
+input
+{
+    border-radius: 25px;
+    background-color: rgb(255, 254, 255);
+    border:none;    
+    width:100%;
+    padding:15px;
+}
+button
+{
+    border-radius: 25px;
+    background-color: rgb(255, 115, 0);
+    padding:14px;
+    width: 100%;
+}h1{
+ text-align: center;
+ color: rgb(241, 12, 50);   
+}
