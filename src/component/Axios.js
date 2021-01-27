@@ -22,6 +22,7 @@ export class Axios extends Component {
     }
 
     render() {
+        console.log()
         const {data}=this.state
         return (
             <div>
