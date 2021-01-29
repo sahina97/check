@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import {Button,Row,Col, Form} from 'react-bootstrap';
 import './Signupstyle.css'
+import{Link}from'react-router-dom';
 
 
  class Signup extends Component {
@@ -42,7 +43,9 @@ import './Signupstyle.css'
                         <div><input type="text" name="username" value={username} onChange={this.onChange} placeholder="pick a user name"></input></div>
                             <div><input type="email"name="email" value={email}onChange={this.onChange} placeholder="your email address"></input></div>
                             <div><input type="password"name="password"value={password}onChange={this.onChange} placeholder="enter a password"></input></div>
-                            <div><button type="button"onClick={this.onSubmit}>sign up </button></div>
+                            <div>
+                                <button type="button"onClick={this.onSubmit}>sign up </button></div>
+                               <Link to="/my-app">nextpage</Link>                     
                             
                         </Col>
                     </Row>

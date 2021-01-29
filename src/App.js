@@ -5,14 +5,18 @@ import Login from './component/Login';
 import Ref from'./component/Ref';
 import Signup from './Signup';
 import Axios from './component/Axios';
+import{BrowserRouter,Route, Switch}from 'react-router-dom';
 function App() { 
   return (
-    <div >
-    {/* <Login Login>></ */}
-    {/* <Ref /> */}
-{/* <Signup/> */}
-<Axios/>
-    </div>
+    
+   <BrowserRouter>
+   
+      <Route exact path="/" component={Signup} />
+      <Route exact path="/my-app" component={Axios}/>
+     
+   </BrowserRouter>
+
+    
   );
 }
 
